@@ -1,4 +1,4 @@
-<h1 align="center">DevLinks</h1>
+<h1 align="center">Links</h1>
 
 <p align="center">
    Programa criado através do curso Discover da Rocketseat ministrado por Mayk Brito .
