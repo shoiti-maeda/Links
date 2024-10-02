@@ -39,6 +39,7 @@ background-size: cover;
 FORMATO => background: color image repeat position /size
 */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   /*utilizando * afeta todos os elementos na tag body */
@@ -193,4 +194,14 @@ ul li a:hover {
 footer{
   padding: 24px;
   text-align: center;
+}
+
+@media (min-width:700px) {
+  :root{
+  --bg-url: url(./projeto/assets/bg-desktop.jpg);
+}
+
+.light{
+  --bg-url: url(./projeto/assets/bg-desktop-light.jpg);
+}
 }
